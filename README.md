@@ -1,27 +1,33 @@
-# Task 1: Data Cleaning and Preprocessing
+# Medical No-Show Cleaning
 
-## Dataset Used:
-Medical Appointment No-Shows (KaggleV2-May-2016.csv)
+This repository contains the cleaning process for the Medical Appointment No-Show dataset using Python.
 
-## What I Did:
-- Cleaned column names
-- Converted date columns to YYYY-MM-DD format
-- Removed invalid age entries (e.g., age < 0)
-- Cleaned the 'handcap' column (values > 1 → 1)
-- Renamed 'no-show' values to 'Show' and 'No-Show'
-- Checked for missing/null values
-- Exported cleaned data to CSV
+---
 
-## Output File:
-- cleaned_medical_appointments.csv
+## 📌 Task Overview
 
-## Output Screenshot
+- Renamed column headers to lowercase and snake_case.
+- Converted 'scheduledday' and 'appointmentday' to datetime format.
+- Cleaned `age`, `handcap`, and `no-show` columns.
+- Exported cleaned dataset as CSV.
 
-Below is the screenshot showing the cleaned column names, date conversions, and cleaned sample data.
+---
+
+## 🐍 Files Included
+
+- `task1_cleaning.py` - Cleaning script.
+- `cleaned_medical_appointments.csv` - Final cleaned dataset.
+- `task1_output.png` - Terminal screenshot showing successful cleaning.
+
+---
+
+## 📸 Output Screenshot
 
 ![Task 1 Output](task1_output.png)
 
+---
 
-## Tools Used:
-- Python
-- Pandas
+## 🧑‍💻 Author
+
+Preetham Reddy  
+Intern at Elevate Labs
