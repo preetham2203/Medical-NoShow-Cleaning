@@ -15,6 +15,13 @@ Medical Appointment No-Shows (KaggleV2-May-2016.csv)
 ## Output File:
 - cleaned_medical_appointments.csv
 
+## Output Screenshot
+
+Below is the screenshot showing the cleaned column names, date conversions, and cleaned sample data.
+
+![Task 1 Output](task1_output.png)
+
+
 ## Tools Used:
 - Python
 - Pandas
